@@ -1,0 +1,15 @@
+version: "3.0"
+
+services:
+  memcached:
+    image: memcached
+    restart: always
+    expose:
+      - "11211"
+
+  yopass:
+    image: jhaals/yopass
+    restart: always
+    ports:
+      - "172.17.0.1:41234:80"
+    command: "--memcached=memcached:11211 --port 80"

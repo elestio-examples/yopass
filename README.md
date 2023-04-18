@@ -10,6 +10,6 @@ Deploy Yopass server with CI/CD on Elestio
 
 # Once deployed ...
 
-You can can open Yopass UI here:
+You can open Yopass UI here:
 
     URL: https://[CI_CD_DOMAIN]

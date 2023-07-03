@@ -7,7 +7,9 @@ ports:
     public: true
     path: "/"
     isAuth: false
-
+environments:
+  - key: "SOFTWARE_VERSION_TAG"
+    value: "latest"
 config:
   runTime: "dockerCompose"
   version: ""

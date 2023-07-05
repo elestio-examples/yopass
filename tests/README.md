@@ -49,7 +49,7 @@ You can access the Web UI at: `http://your-domain:41234`
 
 Here are some example snippets to help you get started creating a container.
 
-       version: "3.0"
+       version: "3.3"
 
         services:
         memcached:
@@ -76,7 +76,7 @@ Here are some example snippets to help you get started creating a container.
 
 ## Logging
 
-The Elestio NodeBB Docker image sends the container logs to stdout. To view the logs, you can use the following command:
+The Elestio YoPass Docker image sends the container logs to stdout. To view the logs, you can use the following command:
 
     docker-compose logs -f
 

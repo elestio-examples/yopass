@@ -8,7 +8,7 @@ services:
       - "11211"
 
   yopass:
-    image: jhaals/yopass:${SOFTWARE_VERSION_TAG}
+    image: elestio/yopass:${SOFTWARE_VERSION_TAG}
     restart: always
     ports:
       - "172.17.0.1:41234:80"
